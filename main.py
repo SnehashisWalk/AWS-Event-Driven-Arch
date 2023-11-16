@@ -4,7 +4,8 @@ import boto3
 # Create an S3 client
 s3 = boto3.client('s3')
 
-# Streamlit UI for file upload
+st.title("AWS event driven architecture")
+
 st.title('Upload Files to S3')
 
 uploaded_file = st.file_uploader("Choose a file", type=['mp4'])
